@@ -1,7 +1,7 @@
 # Kelompok-1
 Metode secant, newton raphson, dan iterasi tetap di C++
 
-Kontribusi
+# Kontribusi
 Ferdian Maulana
 Muhammad Rafly
 Muhammad Fathir
