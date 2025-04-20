@@ -8,7 +8,7 @@ using namespace std;
 
 // Fungsi Iterasi Tetap
 double g(double x) {
-    return (pow(x, 3) + 3 * x + 3) / (x + 1);
+    return - (pow(x, 3) + 1) / 2;
 }
 
 // Fungsi Newton-Raphson
@@ -81,6 +81,7 @@ int main() {
             } while (iter < maxIter);
 
             cout << "\nAkar hampiran: " << x1 << endl;
+            cout << "f(x) = " << f(x1) << endl;
 
         } else if (pilihan == "2") {
             double x0, x1, toleransi;
@@ -125,6 +126,7 @@ int main() {
             } while (iter < maxIter);
 
             cout << "\nAkar hampiran: " << x1 << endl;
+            cout << "f(x) = " << f(x1) << endl;
 
         } else if (pilihan == "3") {
             double x0, x1, x2, toleransi;
@@ -184,6 +186,7 @@ int main() {
             } while (iter < maxIter);
 
             cout << "\nAkar hampiran: " << x2 << endl;
+            cout << "f(x) = " << f(x2) << endl;
 
         } else {
             cout << "\nPilihan tidak valid! Silakan pilih 1, 2, atau 3.\n";
